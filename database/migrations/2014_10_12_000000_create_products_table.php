@@ -22,7 +22,6 @@ class CreateProductsTable extends Migration
             $table->boolean('availability');
             $table->string('color');
             $table->string('dimensions');
-            $table->rememberToken();
             $table->timestamps();
         });
     }
